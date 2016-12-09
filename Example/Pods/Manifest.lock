@@ -1,0 +1,16 @@
+PODS:
+  - simple-logger-ios (0.1.0)
+
+DEPENDENCIES:
+  - simple-logger-ios (from `../`)
+
+EXTERNAL SOURCES:
+  simple-logger-ios:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  simple-logger-ios: ab739a1ccd5bc4764198668acf3c6c08ae55c0b5
+
+PODFILE CHECKSUM: f0531498d956b632ece6e899ca6899b1fefdf644
+
+COCOAPODS: 1.1.1

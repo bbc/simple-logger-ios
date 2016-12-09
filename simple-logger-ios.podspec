@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'simple-logger-ios'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of simple-logger-ios.'
+  s.summary          = 'Convenience wrapper functions for writing to Apple System Log'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This framework provides a simple set of convenience wrapper functions for writing to ASL (Apple System
+Log).
+
+It supports a compile-time log level by setting the value of the preprocessor macro
+`MW_COMPILE_TIME_LOG_LEVEL`. This will turn the associated log calls
+into NOPs.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/simple-logger-ios'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ramdhany' => 'nirish777@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/simple-logger-ios.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.homepage         = 'https://github.com/bbc/simple-logger-ios'
+  s.license          = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
+  s.author           = { 'Rajiv Ramdhany' => 'rajiv.ramdhany@bbc.co.uk' }
+  s.source           = { :git => 'https://github.com/bbc/simple-logger-ios.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
