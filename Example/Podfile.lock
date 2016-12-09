@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  simple-logger-ios: ab739a1ccd5bc4764198668acf3c6c08ae55c0b5
+  simple-logger-ios: 01f25938f328b52b6a37e7b19b1b81ee47152841
 
 PODFILE CHECKSUM: f0531498d956b632ece6e899ca6899b1fefdf644
 

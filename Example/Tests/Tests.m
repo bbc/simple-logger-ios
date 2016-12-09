@@ -8,6 +8,8 @@
 
 @import XCTest;
 
+#import <simple_logger_ios/MWLogging.h>
+
 @interface Tests : XCTestCase
 
 @end
@@ -26,9 +28,16 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testLogger
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSString *str = @"testLogger";
+    
+    MWLogInfo(@"This is an info message from %@ function", str);
+    MWLogDebug(@"This is a debug message from %@ function", str);
+    MWLogCritical(@"This is a critical message from %@ function", str);
+    MWLogEmergency(@"This is an emergency message from %@ function", str);
+    
+    XCTAssert(YES);
 }
 
 @end
