@@ -1,0 +1,6 @@
+use_frameworks!
+target 'simple-logger-ios_Tests' do
+  pod 'simple-logger-ios', :path => '../'
+  
+  
+end
