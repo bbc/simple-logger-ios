@@ -31,7 +31,7 @@ into NOPs.
   s.author           = { 'Rajiv Ramdhany' => 'rajiv.ramdhany@bbc.co.uk' }
   s.source           = { :git => 'https://github.com/bbc/simple-logger-ios.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'simple-logger-ios/Classes/**/*'
   
