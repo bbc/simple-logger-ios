@@ -4,12 +4,13 @@
 [![Version](https://img.shields.io/cocoapods/v/simple-logger-ios.svg?style=flat)](http://cocoapods.org/pods/simple-logger-ios)
 [![License](https://img.shields.io/cocoapods/l/simple-logger-ios.svg?style=flat)](http://cocoapods.org/pods/simple-logger-ios)
 [![Platform](https://img.shields.io/cocoapods/p/simple-logger-ios.svg?style=flat)](http://cocoapods.org/pods/simple-logger-ios)
+
+
 This framework provides a simple set of convenience wrapper functions for writing to ASL (Apple System
-Log).
+Log). It is an extension of this logger: https://github.com/MikeWeller/MWLogging/blob/master/MWLogging.h
 
 It supports a compile-time log level by setting the value of the preprocessor macro
-`MW_COMPILE_TIME_LOG_LEVEL`. This will turn the associated log calls
-into NOPs.
+`MW_COMPILE_TIME_LOG_LEVEL`.
 
 ## Overview
 
